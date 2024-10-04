@@ -1,0 +1,41 @@
+{
+	"name": "react-run-server",
+	"displayName": "Start React Run Server",
+	"description": "start your React.js app inside Visual Studio Code",
+	"version": "0.0.3",
+	"publisher": "Hugo214",
+	"private": true,
+	"engines": {
+		"vscode": "^1.73.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"activationEvents": [
+		"*"
+	],
+	"license": "MIT",
+	"main": "./out/extension.js",
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"lint": "eslint \"src/**/*.ts\"",
+		"watch": "tsc -watch -p ./"
+	},
+	"devDependencies": {
+		"@types/node": "^22.7.4",
+		"@types/vscode": "^1.73.0",
+		"@typescript-eslint/eslint-plugin": "^6.7.0",
+		"@typescript-eslint/parser": "^6.7.0",
+		"eslint": "^8.26.0",
+		"typescript": "^5.4.2"
+	},
+	"dependencies": {
+		"child_process": "^1.0.2",
+		"path": "^0.12.7"
+	}
+}
