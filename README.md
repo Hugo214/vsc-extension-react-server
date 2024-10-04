@@ -43,5 +43,3 @@ Este proyecto está bajo la [Licencia MIT](LICENSE).
 
 
 
-![Start React App](01.gif)
-
